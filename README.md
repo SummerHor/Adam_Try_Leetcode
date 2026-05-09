@@ -1,0 +1,1 @@
+# Adam_Try_Leetcode
