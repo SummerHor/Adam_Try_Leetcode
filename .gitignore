@@ -14,3 +14,7 @@ ENV/
 .idea/
 *.swp
 *.swo
+
+# Ignore the test file
+test/
+*test*.*
