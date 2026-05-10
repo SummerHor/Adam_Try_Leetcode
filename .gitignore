@@ -18,3 +18,5 @@ ENV/
 # Ignore the test file
 test/
 *test*.*
+.DS_Store
+
