@@ -4,7 +4,6 @@ class Solution:
         mapping = {}
         # store the existed words in mapping
         store = set()
-        s = s.split()
         if len(pattern) != len(s):
             return False
 
@@ -19,6 +18,9 @@ class Solution:
                     return False
         return True
 
-
-print(Solution().wordPattern("abba", "dog cat cat dog"))
-print(Solution().wordPattern("gggg", "dog cat cat dog"))
+    def findAndReplacePattern(self, words: List[str], pattern: str) -> List[str]:
+        matched = []
+        for word in words:
+            if self.wordPattern(pattern, word):
+                matched.append(word)
+        return matched
