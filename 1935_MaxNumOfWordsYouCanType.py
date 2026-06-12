@@ -1,6 +1,5 @@
 import re
 
-
 class Solution:
     def canBeTypedWords(self, text: str, brokenLetters: str) -> int:
         # Creating pattern of the brokenLetters
